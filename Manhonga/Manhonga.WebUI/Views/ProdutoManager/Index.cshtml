@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Manhonga.Core.Models.Produto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Novo", "Novo")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProdutoNome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProdutoDescricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProdutoPreco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProdutoCategoria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProdutoImagem)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProdutoNome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProdutoDescricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProdutoPreco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProdutoCategoria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProdutoImagem)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.ProdutoId }) |
+            @Html.ActionLink("Apagar", "Apagar", new { id=item.ProdutoId })
+        </td>
+    </tr>
+}
+
+</table>

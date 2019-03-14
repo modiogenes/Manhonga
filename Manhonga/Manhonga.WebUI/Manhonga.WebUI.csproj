@@ -175,6 +175,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProdutoManagerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -278,6 +279,10 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\ProdutoManager\Index.cshtml" />
+    <Content Include="Views\ProdutoManager\Novo.cshtml" />
+    <Content Include="Views\ProdutoManager\Editar.cshtml" />
+    <Content Include="Views\ProdutoManager\Apagar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -292,6 +297,24 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Manhong.DataAccess.SQL\Manhonga.DataAccess.SQL.csproj">
+      <Project>{cd844f71-05f1-498b-85c9-68b6af4806e4}</Project>
+      <Name>Manhonga.DataAccess.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manhonga.Core\Manhonga.Core.csproj">
+      <Project>{dcc4c266-9178-414f-aac9-80c23aef1dc1}</Project>
+      <Name>Manhonga.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manhonga.DataAccess.InMemory\Manhonga.DataAccess.InMemory.csproj">
+      <Project>{ef6d4391-5ff7-4f1e-af68-de99117fa463}</Project>
+      <Name>Manhonga.DataAccess.InMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manhonga.Services\Manhonga.Services.csproj">
+      <Project>{296b462a-fb27-4449-9e10-b1407733d54e}</Project>
+      <Name>Manhonga.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

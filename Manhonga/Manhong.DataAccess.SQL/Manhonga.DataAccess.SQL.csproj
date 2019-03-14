@@ -7,8 +7,8 @@
     <ProjectGuid>{CD844F71-05F1-498B-85C9-68B6AF4806E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Manhong.DataAccess.SQL</RootNamespace>
-    <AssemblyName>Manhong.DataAccess.SQL</AssemblyName>
+    <RootNamespace>Manhonga.DataAccess.SQL</RootNamespace>
+    <AssemblyName>Manhonga.DataAccess.SQL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

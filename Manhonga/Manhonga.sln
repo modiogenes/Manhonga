@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhonga.Core", "Manhonga.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhonga.Services", "Manhonga.Services\Manhonga.Services.csproj", "{296B462A-FB27-4449-9E10-B1407733D54E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhong.DataAccess.SQL", "Manhong.DataAccess.SQL\Manhong.DataAccess.SQL.csproj", "{CD844F71-05F1-498B-85C9-68B6AF4806E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhonga.DataAccess.SQL", "Manhong.DataAccess.SQL\Manhonga.DataAccess.SQL.csproj", "{CD844F71-05F1-498B-85C9-68B6AF4806E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manhonga.DataAccess.InMemory", "Manhonga.DataAccess.InMemory\Manhonga.DataAccess.InMemory.csproj", "{EF6D4391-5FF7-4F1E-AF68-DE99117FA463}"
 EndProject
